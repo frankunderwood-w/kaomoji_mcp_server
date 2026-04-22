@@ -1,0 +1,462 @@
+{
+  "version": "1.0.0",
+  "scenes": [
+    {
+      "id": "celebrate",
+      "name": { "en": "Celebrate", "zh": "庆祝/积极" },
+      "description": {
+        "en": "Kaomoji for celebrating task completion. Use subtle for formal contexts, moderate for general happiness, and intense for breakthroughs.",
+        "zh": "用于庆祝任务完成的颜文字。subtle 适用于正式场景，moderate 为默认开心，intense 适用于重大突破。"
+      },
+      "kaomoji": [
+        {
+          "text": "(^-^)",
+          "intensity": "subtle",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["smile", "gentle"], "zh": ["微笑", "含蓄"] }
+        },
+        {
+          "text": "(^_^)",
+          "intensity": "subtle",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["smile", "happy"], "zh": ["微笑", "开心"] }
+        },
+        {
+          "text": "(^ω^)",
+          "intensity": "subtle",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["smile", "content"], "zh": ["微笑", "满足"] }
+        },
+        {
+          "text": "(^o^)",
+          "intensity": "subtle",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["smile", "small-happy"], "zh": ["微笑", "小确幸"] }
+        },
+        {
+          "text": "(^.~)",
+          "intensity": "subtle",
+          "fallback": ";)",
+          "cli_safe": true,
+          "tags": { "en": ["wink", "playful"], "zh": ["眨眼", "俏皮"] }
+        },
+        {
+          "text": "(^.^)b",
+          "intensity": "subtle",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["thumbs-up", "cute"], "zh": ["赞", "可爱"] }
+        },
+        {
+          "text": "(^-^)d",
+          "intensity": "subtle",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["thumbs-up", "agreement"], "zh": ["赞", "同意"] }
+        },
+        {
+          "text": "(^o^)/",
+          "intensity": "moderate",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["wave", "happy"], "zh": ["挥手", "开心"] }
+        },
+        {
+          "text": "(^_^)/",
+          "intensity": "moderate",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["wave", "cheerful"], "zh": ["挥手", "愉快"] }
+        },
+        {
+          "text": "(^▽^)",
+          "intensity": "moderate",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["big-smile", "joy"], "zh": ["大笑", "喜悦"] }
+        },
+        {
+          "text": "(^-^)v",
+          "intensity": "moderate",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["peace", "victory"], "zh": ["胜利", "和平"] }
+        },
+        {
+          "text": "(^_^)b",
+          "intensity": "moderate",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["thumbs-up", "good"], "zh": ["赞", "好"] }
+        },
+        {
+          "text": "(^o^)b",
+          "intensity": "moderate",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["thumbs-up", "happy"], "zh": ["赞", "开心"] }
+        },
+        {
+          "text": "(^▽^)/",
+          "intensity": "moderate",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["wave", "big-smile"], "zh": ["挥手", "大笑"] }
+        },
+        {
+          "text": "(^_^)d",
+          "intensity": "moderate",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["approval", "nice"], "zh": ["认可", "不错"] }
+        },
+        {
+          "text": "(^-^)/",
+          "intensity": "moderate",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["wave", "friendly"], "zh": ["挥手", "友好"] }
+        },
+        {
+          "text": "(^o^)/~",
+          "intensity": "moderate",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["wave", "cheerful"], "zh": ["挥手", "欢快"] }
+        },
+        {
+          "text": "(^▽^)b",
+          "intensity": "moderate",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["big-smile", "thumbs-up"], "zh": ["大笑", "赞"] }
+        },
+        {
+          "text": "\\(^o^)/",
+          "intensity": "intense",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["victory", "excited"], "zh": ["胜利", "激动"] }
+        },
+        {
+          "text": "\\(^▽^)/",
+          "intensity": "intense",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["victory", "big-win"], "zh": ["大胜", "狂喜"] }
+        },
+        {
+          "text": "\\(^_^)/",
+          "intensity": "intense",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["yay", "celebration"], "zh": ["耶", "庆祝"] }
+        },
+        {
+          "text": "Y(^_^)Y",
+          "intensity": "intense",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["double-yay", "excited"], "zh": ["双耶", "兴奋"] }
+        },
+        {
+          "text": "v(^-^)v",
+          "intensity": "intense",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["peace", "excited"], "zh": ["胜利", "兴奋"] }
+        },
+        {
+          "text": "\\(^.^)/",
+          "intensity": "intense",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["excited", "wave"], "zh": ["兴奋", "挥手"] }
+        },
+        {
+          "text": "\\(^∀^)/",
+          "intensity": "intense",
+          "fallback": ":D",
+          "cli_safe": true,
+          "tags": { "en": ["ultimate-victory", "triumph"], "zh": ["终极胜利", "凯旋"] }
+        },
+        {
+          "text": "\\(^ω^)/",
+          "intensity": "intense",
+          "fallback": ":)",
+          "cli_safe": true,
+          "tags": { "en": ["joyful", "wave"], "zh": ["喜悦", "挥手"] }
+        }
+      ]
+    },
+    {
+      "id": "thinking",
+      "name": { "en": "Thinking", "zh": "思考/困惑" },
+      "description": {
+        "en": "Kaomoji for expressing thinking, confusion, and effort states. Use thinking for pondering, confused for uncertainty, and effort for struggling.",
+        "zh": "用于表达思考、困惑和努力状态的颜文字。thinking 适用于沉思，confused 适用于困惑，effort 适用于努力。"
+      },
+      "kaomoji": [
+        {
+          "text": "( -_-)",
+          "state": "thinking",
+          "fallback": "-_-",
+          "cli_safe": true,
+          "tags": { "en": ["processing", "quiet"], "zh": ["处理中", "安静"] }
+        },
+        {
+          "text": "(.. )",
+          "state": "thinking",
+          "fallback": "...",
+          "cli_safe": true,
+          "tags": { "en": ["trailing-thought", "pondering"], "zh": ["沉思", "遐想"] }
+        },
+        {
+          "text": "(._. )",
+          "state": "thinking",
+          "fallback": "._.",
+          "cli_safe": true,
+          "tags": { "en": ["contemplative", "reflective"], "zh": ["沉思", "反思"] }
+        },
+        {
+          "text": "(^.^;)",
+          "state": "thinking",
+          "fallback": "^_^;",
+          "cli_safe": true,
+          "tags": { "en": ["thinking", "sweat"], "zh": ["思考", "汗"] }
+        },
+        {
+          "text": "(-_-)",
+          "state": "thinking",
+          "fallback": "-_-",
+          "cli_safe": true,
+          "tags": { "en": ["processing", "blank"], "zh": ["处理中", "面无表情"] }
+        },
+        {
+          "text": "(._.;)",
+          "state": "thinking",
+          "fallback": "._.;",
+          "cli_safe": true,
+          "tags": { "en": ["hesitant", "uncertain"], "zh": ["犹豫", "不确定"] }
+        },
+        {
+          "text": "(o_O)?",
+          "state": "confused",
+          "fallback": "o_O?",
+          "cli_safe": true,
+          "tags": { "en": ["confused", "quizzical"], "zh": ["困惑", "疑惑"] }
+        },
+        {
+          "text": "(O_o)?",
+          "state": "confused",
+          "fallback": "O_o?",
+          "cli_safe": true,
+          "tags": { "en": ["confused", "puzzled"], "zh": ["困惑", "迷惑"] }
+        },
+        {
+          "text": "(o_o)?",
+          "state": "confused",
+          "fallback": "o_o?",
+          "cli_safe": true,
+          "tags": { "en": ["confused", "bewildered"], "zh": ["困惑", "茫然"] }
+        },
+        {
+          "text": "(O_O)?",
+          "state": "confused",
+          "fallback": "O_O?",
+          "cli_safe": true,
+          "tags": { "en": ["confused", "surprised"], "zh": ["困惑", "惊讶"] }
+        },
+        {
+          "text": "(o_O)",
+          "state": "confused",
+          "fallback": "o_O",
+          "cli_safe": true,
+          "tags": { "en": ["quizzical", "tilt"], "zh": ["疑惑", "歪头"] }
+        },
+        {
+          "text": "(O_o)",
+          "state": "confused",
+          "fallback": "O_o",
+          "cli_safe": true,
+          "tags": { "en": ["puzzled", "wondering"], "zh": ["迷惑", "纳闷"] }
+        },
+        {
+          "text": "(._.)?",
+          "state": "confused",
+          "fallback": "._.?",
+          "cli_safe": true,
+          "tags": { "en": ["questioning", "uncertain"], "zh": ["质疑", "不确定"] }
+        },
+        {
+          "text": "(..)?",
+          "state": "confused",
+          "fallback": "...?",
+          "cli_safe": true,
+          "tags": { "en": ["uncertain", "doubtful"], "zh": ["不确定", "怀疑"] }
+        },
+        {
+          "text": "(o_o;)",
+          "state": "effort",
+          "fallback": "o_o;",
+          "cli_safe": true,
+          "tags": { "en": ["sweating", "nervous"], "zh": ["流汗", "紧张"] }
+        },
+        {
+          "text": "(>_<;)",
+          "state": "effort",
+          "fallback": ">_<;",
+          "cli_safe": true,
+          "tags": { "en": ["struggling", "sweating"], "zh": ["挣扎", "冒汗"] }
+        }
+      ]
+    },
+    {
+      "id": "apologize",
+      "name": { "en": "Apologize", "zh": "道歉/伤感" },
+      "description": {
+        "en": "Kaomoji for apologizing when users are dissatisfied, results not found, or errors occur. Use dissatisfied for criticism, not_found for empty results, and error for failures.",
+        "zh": "用于用户不满意、搜索无结果或出错时道歉的颜文字。dissatisfied 适用于批评指责，not_found 适用于无结果，error 适用于错误。"
+      },
+      "kaomoji": [
+        {
+          "text": "(-_-;)",
+          "reason": ["dissatisfied", "error"],
+          "fallback": "-_-;",
+          "cli_safe": true,
+          "tags": { "en": ["awkward", "sweat"], "zh": ["尴尬", "汗"] }
+        },
+        {
+          "text": "(^.^;)",
+          "reason": ["dissatisfied"],
+          "fallback": "^_^;",
+          "cli_safe": true,
+          "tags": { "en": ["awkward-smile", "embarrassed"], "zh": ["尴尬笑", "不好意思"] }
+        },
+        {
+          "text": "m(_ _)m",
+          "reason": ["dissatisfied"],
+          "fallback": "m(_ _)m",
+          "cli_safe": true,
+          "tags": { "en": ["deep-bow", "apology"], "zh": ["土下座", "道歉"] }
+        },
+        {
+          "text": "(._.;)",
+          "reason": ["dissatisfied", "not_found"],
+          "fallback": "._.;",
+          "cli_safe": true,
+          "tags": { "en": ["hesitant-apology", "uncertain"], "zh": ["犹豫道歉", "不确定"] }
+        },
+        {
+          "text": "(T_T)",
+          "reason": ["dissatisfied", "error"],
+          "fallback": "T_T",
+          "cli_safe": true,
+          "tags": { "en": ["crying", "sad"], "zh": ["哭泣", "伤心"] }
+        },
+        {
+          "text": "(;_;)",
+          "reason": ["dissatisfied", "error"],
+          "fallback": ";_;",
+          "cli_safe": true,
+          "tags": { "en": ["tears", "upset"], "zh": ["流泪", "难过"] }
+        },
+        {
+          "text": "(ToT)",
+          "reason": ["dissatisfied"],
+          "fallback": "ToT",
+          "cli_safe": true,
+          "tags": { "en": ["crying-out", "distressed"], "zh": ["大哭", "痛苦"] }
+        },
+        {
+          "text": "(..)",
+          "reason": ["not_found"],
+          "fallback": "...",
+          "cli_safe": true,
+          "tags": { "en": ["empty", "blank"], "zh": ["空白", "无结果"] }
+        },
+        {
+          "text": "(o_O)",
+          "reason": ["not_found"],
+          "fallback": "o_O",
+          "cli_safe": true,
+          "tags": { "en": ["confused", "not-found"], "zh": ["困惑", "未找到"] }
+        },
+        {
+          "text": "(O_o)",
+          "reason": ["not_found"],
+          "fallback": "O_o",
+          "cli_safe": true,
+          "tags": { "en": ["puzzled", "missing"], "zh": ["迷惑", "缺失"] }
+        },
+        {
+          "text": "(.. )",
+          "reason": ["not_found"],
+          "fallback": "...",
+          "cli_safe": true,
+          "tags": { "en": ["nothing", "trailing"], "zh": ["没有", "空白"] }
+        },
+        {
+          "text": "(O_O)?",
+          "reason": ["not_found"],
+          "fallback": "O_O?",
+          "cli_safe": true,
+          "tags": { "en": ["surprised-nothing", "shocked"], "zh": ["惊讶无结果", "震惊"] }
+        },
+        {
+          "text": "(o_o)?",
+          "reason": ["not_found"],
+          "fallback": "o_o?",
+          "cli_safe": true,
+          "tags": { "en": ["bewildered", "lost"], "zh": ["茫然", "迷失"] }
+        },
+        {
+          "text": "(._.)?",
+          "reason": ["not_found"],
+          "fallback": "._.?",
+          "cli_safe": true,
+          "tags": { "en": ["questioning", "no-results"], "zh": ["质疑", "无结果"] }
+        },
+        {
+          "text": "(..)?",
+          "reason": ["not_found"],
+          "fallback": "...?",
+          "cli_safe": true,
+          "tags": { "en": ["uncertain", "doubtful"], "zh": ["不确定", "疑惑"] }
+        },
+        {
+          "text": "(x_x)",
+          "reason": ["error"],
+          "fallback": "x_x",
+          "cli_safe": true,
+          "tags": { "en": ["error", "dead"], "zh": ["错误", "挂了"] }
+        },
+        {
+          "text": "(X_X)",
+          "reason": ["error"],
+          "fallback": "X_X",
+          "cli_safe": true,
+          "tags": { "en": ["fatal-error", "crashed"], "zh": ["致命错误", "崩溃"] }
+        },
+        {
+          "text": "(o_o;)",
+          "reason": ["error"],
+          "fallback": "o_o;",
+          "cli_safe": true,
+          "tags": { "en": ["sweat", "nervous"], "zh": ["流汗", "紧张"] }
+        },
+        {
+          "text": "(X_x)",
+          "reason": ["error"],
+          "fallback": "X_x",
+          "cli_safe": true,
+          "tags": { "en": ["error-variant", "glitch"], "zh": ["错误变体", "故障"] }
+        },
+      ]
+    }
+  ]
+}

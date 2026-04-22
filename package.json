@@ -1,0 +1,36 @@
+{
+  "name": "kaomoji-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Server that provides CLI-safe kaomoji for AI Agents at key interaction points",
+  "bin": {
+    "kaomoji-mcp": "./build/index.js"
+  },
+  "exports": {
+    ".": "./build/smithery.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"const fs=require('fs');fs.mkdirSync('build/data',{recursive:true});fs.copyFileSync('src/data/kaomoji.json','build/data/kaomoji.json')\"",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "filter:cli-safe": "tsx scripts/filter-cli-safe.ts",
+    "verify:rendering": "tsx scripts/verify-rendering.ts",
+    "type:check": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.scripts.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.4"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@smithery/sdk": "^4.3.0",
+    "zod": "^4.3.6"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
