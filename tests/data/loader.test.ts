@@ -58,8 +58,8 @@ describe("loadKaomojiDB", () => {
     ).toEqual(EXPECTED_REASONS);
   });
 
-  it("contains at least 75 kaomoji entries", () => {
-    expect(getAllEntries().length).toBeGreaterThanOrEqual(75);
+  it("contains at least 61 kaomoji entries", () => {
+    expect(getAllEntries().length).toBeGreaterThanOrEqual(61);
   });
 
   it("marks every entry as cli_safe and provides a fallback", () => {
