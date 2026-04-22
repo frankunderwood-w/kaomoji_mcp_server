@@ -3,7 +3,7 @@
 > CLI-safe kaomoji for AI Agents at key interaction points
 
 [![npm version](https://img.shields.io/npm/v/kaomoji-mcp)](https://www.npmjs.com/package/kaomoji-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that gives AI agents expressive kaomoji (ASCII emoticons) at key moments — thinking, celebrating, and apologizing. All kaomoji are CLI-safe: no full-width characters, no decorative Unicode, no rendering surprises in any terminal.
 
@@ -408,4 +408,4 @@ All tests use **in-memory MCP transport** — no network or stdio required.
 
 ## License
 
-MIT
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
