@@ -455,7 +455,7 @@
           "fallback": "X_x",
           "cli_safe": true,
           "tags": { "en": ["error-variant", "glitch"], "zh": ["错误变体", "故障"] }
-        },
+        }
       ]
     }
   ]
