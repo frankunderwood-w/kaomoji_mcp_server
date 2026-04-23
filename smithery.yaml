@@ -1,0 +1,10 @@
+# Smithery deployment configuration
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    description: Before deploying, make sure to create config files from README based on your Client
+  commandFunction:
+    - (config) => ({ command: 'npx', args: ['-y', 'kaomoji-mcp'] })
+  exampleConfig: {}
