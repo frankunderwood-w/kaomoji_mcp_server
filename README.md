@@ -114,7 +114,7 @@ kaomoji-mcp   # starts the stdio server
 ### Option C — Local project clone
 
 ```bash
-git clone https://github.com/<frankunderwood-w>/kaomoji-mcp.git
+git clone https://github.com/frankunderwood-w/kaomoji_mcp_server.git
 cd kaomoji-mcp
 npm install
 npm run build
@@ -125,7 +125,7 @@ node build/index.js   # starts the stdio server
 ```bash
 mkdir my-project && cd my-project
 npm init -y
-npm install kaomoji-mc
+npm install kaomoji-mcp
 ```
 
 ---
@@ -352,7 +352,7 @@ npx @smithery/cli install kaomoji-mcp
 
 ```bash
 # Clone and install
-git clone https://github.com/<frankunderwood-w>/kaomoji-mcp.git
+git clone https://github.com/frankunderwood-w/kaomoji_mcp_server.git
 cd kaomoji-mcp
 npm install
 
