@@ -1,6 +1,6 @@
 {
   "name": "kaomoji-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "MCP Server that provides CLI-safe kaomoji for AI Agents at key interaction points",
   "license": "GPL-3.0-or-later",
@@ -8,11 +8,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frankunderwood-w/kaomoji-mcp.git"
-  },  
-  "homepage": "https://github.com/frankunderwood-w/kaomoji-mcp#readme", 
+  },
+  "homepage": "https://github.com/frankunderwood-w/kaomoji-mcp#readme",
   "bugs": {
     "url": "https://github.com/frankunderwood-w/kaomoji-mcp/issues"
-  },  
+  },
   "keywords": [
     "mcp",
     "mcp-server",
@@ -21,7 +21,7 @@
     "ai-agent",
     "model-context-protocol",
     "cli"
-  ], 
+  ],
   "files": [
     "build"
   ],
